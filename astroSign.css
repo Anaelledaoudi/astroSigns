@@ -1,0 +1,43 @@
+body{
+	background: rgb(229,237,245);
+	background: linear-gradient(356deg, rgba(229,237,245,0.8456057007125891) 0%, rgba(195,212,241,1) 28%, rgba(204,227,246,1) 63%, rgba(170,187,223,1) 100%);
+}
+.imgSize{
+	height: 500px;
+	width: 300px;
+	border-radius:20px;
+	object-fit:cover;
+}
+
+/*
+#container{
+	position: relative;
+	width: 20%;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: purple;
+}
+
+.container:hover .overlay {
+	opacity: 0.7;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}

@@ -1,9 +1,17 @@
 let btn=document.getElementById("btnDate");
-btn.addEventListener("click",getDayMonth)
+btn.addEventListener("click",redirectAndGetDayMonth);
 
 let m;
 let d;
 let astroSign;
+
+function redirectAndGetDayMonth(){
+  getDayMonth();
+  redirect();
+}
+function redirect(){
+  location.href="zodiacPage.html"
+}
 
 function getDayMonth(){
 let date=document.getElementById("cal").value;
@@ -61,4 +69,7 @@ function checkAstro(m,d){
     else if((d>=22&&m==12)||(d<=19&&m==1)){
     	astroSign="Capricorn";
     }
+    console.log(astroSign);
+    localStorage.setItem('sign', astroSign);
+    
 }
