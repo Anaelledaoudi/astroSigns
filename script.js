@@ -10,11 +10,19 @@ function disappear(){
 
 =======
 let btn=document.getElementById("btnDate");
-btn.addEventListener("click",getDayMonth)
+btn.addEventListener("click",redirectAndGetDayMonth);
 
 let m;
 let d;
 let astroSign;
+
+function redirectAndGetDayMonth(){
+  getDayMonth();
+  redirect();
+}
+function redirect(){
+  location.href="zodiacPage.html"
+}
 
 function getDayMonth(){
 let date=document.getElementById("cal").value;
@@ -72,5 +80,12 @@ function checkAstro(m,d){
     else if((d>=22&&m==12)||(d<=19&&m==1)){
     	astroSign="Capricorn";
     }
+<<<<<<< HEAD
 }
 >>>>>>> a61d070c03253ed7064909b5c290091ca8ce630f
+=======
+    console.log(astroSign);
+    localStorage.setItem('sign', astroSign);
+    
+}
+>>>>>>> be73effb1bfc6de7b4b944929ebacf40279607ae
