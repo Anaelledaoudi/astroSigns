@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+let first = document.getElementById("w");
+
+// appear the banner after 3 sec
+setTimeout(disappear, 3000);
+
+function disappear(){
+  first.classList.remove("first");
+}
+
+=======
 let btn=document.getElementById("btnDate");
 btn.addEventListener("click",getDayMonth)
 
@@ -62,3 +73,4 @@ function checkAstro(m,d){
     	astroSign="Capricorn";
     }
 }
+>>>>>>> a61d070c03253ed7064909b5c290091ca8ce630f

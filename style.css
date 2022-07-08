@@ -1,0 +1,33 @@
+#pictures{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#pictures *{
+	border: 1px solid black;
+	width: 70%;
+	text-align: center;
+	color: white;
+	
+
+}
+
+body{
+	background-color: darkblue;
+	background-position: center;
+
+}
+
+.disappear{
+	display: none;
+
+}
+
+body{
+	background-image: url(welcome.jpg.jpg);
+}
+
+
+
