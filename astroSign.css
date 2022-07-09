@@ -1,12 +1,47 @@
 body{
 	background: rgb(229,237,245);
 	background: linear-gradient(356deg, rgba(229,237,245,0.8456057007125891) 0%, rgba(195,212,241,1) 28%, rgba(204,227,246,1) 63%, rgba(170,187,223,1) 100%);
+	overflow-y: scroll;
+	scroll-behavior: smooth;
 }
 .imgSize{
 	height: 500px;
 	width: 300px;
 	border-radius:20px;
 	object-fit:cover;
+}
+
+
+
+.content{
+	height: 80vh;
+	width: 100%;
+	background-image: url(background4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 20s;
+
+	animation-name:  animate;
+	animation-direction:normal ;
+	animation-playstate: running;
+	animation-timing-function: ease-in-out;
+	animation-duration: 40s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes animate{
+	0%{
+		background-image: url(welcome.jpg.jpg);
+	}
+	40%{
+		background-image: url(background2.jpg);
+	}
+	60%{
+		background-image: url(background3.jpg);
+	}
+	
 }
 
 /*
@@ -41,3 +76,6 @@ body{
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
+
+
