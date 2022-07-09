@@ -1,6 +1,7 @@
 body{
 	background: rgb(229,237,245);
 	background: linear-gradient(356deg, rgba(229,237,245,0.8456057007125891) 0%, rgba(195,212,241,1) 28%, rgba(204,227,246,1) 63%, rgba(170,187,223,1) 100%);
+	background-repeat: no-repeat;
 }
 .imgSize{
 	height: 500px;
@@ -9,10 +10,14 @@ body{
 	object-fit:cover;
 }
 
-/*
+
 #container{
 	position: relative;
 	width: 20%;
+	margin-left: 40%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
 }
 .overlay {
 	position: absolute;
@@ -24,15 +29,16 @@ body{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: purple;
+	background-color: #6f4ab1;
+	border-radius: 20px;
 }
 
-.container:hover .overlay {
-	opacity: 0.7;
+.overlay:hover  {
+	opacity: 0.9;
 }
 .text {
 	color: white;
-	font-size: 20px;
+	font-size: 1em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -40,4 +46,53 @@ body{
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
+	height: 500px;
+}
+.mySignBar{
+	background-color:#110624; 
+
+}
+.paddingBtn{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#cal{
+	font-size: 1em;
+	border-radius: 5px;
+	background-color: #e9ebff;
+	color:#a3a0ad;
+}
+.myBtn:hover{
+	background-color: #6f4ab1;
+}
+.content{
+	display: flex;
+	justify-content: flex-end;
+}
+#signCentered{
+	justify-self: flex-start;
+	align-self: center;
+	color: white;
+	font-size: 2em;
+}
+.borderImg{
+	border: 1px solid #6f4ab1;
+	border-radius: 10px;
+	width: 25%;
+	margin-left: 5%;
+}
+i{
+	color: #6f4ab1;
+	font-size: 100px;
+	position: relative;
+}
+#percant{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-size: 0.3em;
+	color: white;
+}
+.disappear{
+	display: none;
 }
