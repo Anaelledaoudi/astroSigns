@@ -1,23 +1,63 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
 body{
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+.content{
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/background4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 10s;
+	animation-name:  animate;
+	animation-direction:normal ;
+	animation-playstate: running;
+	animation-timing-function: ease-in-out;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	height: 80vh;
+	width: 100%;
+}
+@keyframes animate{
+	0%{
+		background-image: url(img/welcome.jpg.jpg);
+	}
+	40%{
+		background-image: url(img/background2.jpg);
+	}
+	60%{
+		background-image: url(img/background3.jpg);
+	}
+	
+}
+/*body{
 	background: rgb(229,237,245);
 	background: linear-gradient(356deg, rgba(229,237,245,0.8456057007125891) 0%, rgba(195,212,241,1) 28%, rgba(204,227,246,1) 63%, rgba(170,187,223,1) 100%);
 	background-repeat: no-repeat;
-}
+}*/
 .myBtn{
 	margin-top:1% ;
-	border-color:#221160;
-	color:#221160;
+	border-color:#944a6b;
+	color:#944a6b;
 }
 .myBtn:hover{
-	background-color:#221160;
+	background-color:#944a6b;
 	color:white;
 }
 #cal{
-	padding: 1%;
+	padding: 0.6%;
 	font-size: 1.3em;
-	border-radius: 5px;
-	background-color: #e9ebff;
-	color:#a3a0ad;
+	border-radius: 8px;
+	background-color: #fdf1eb;
+	color:#6a574c;
+	margin-top: 4vh;
 
 }
 section{
@@ -25,4 +65,9 @@ section{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #211101;
+}
+.longer{
+	height: 5vh;
+	background-color:#211101;
 }
