@@ -3,7 +3,7 @@ let usersign = localStorage.getItem('sign');
 const astroDescription=[
      {
      	 name:"Aquarius",
-         src:"img/aquariuss/png",
+         src:"img/aquariuss.png",
          description:"Aquarius, Element:Water Aquarians are usually full of ideas, ready to get the big picture on a problem and figure out how we should all move forward collectively into the unknown. Aquarius says onward—into the future! This sign is known to have an affinity for the unknown—and what may seem experimental or avant-garde to the rest of us. Aquarians are always looking forward into the future with a cool, airy perspective.Aquarians are the inventors, scientists, experimental artists, and artisans of the zodiac. Lucky Jam: Amethyst",
          jams:["img/Amethyst.png"],
          compatibility:["90%","45%","85%","58%","98%","67%","92%","50%","98%","70%","82%","66%"]
@@ -27,7 +27,7 @@ const astroDescription=[
      	 name:"Taurus",
          src:"img/taurus.png",
          description:"Taurus, Element: Earth. They are hot-tempered, dependable, resilient, hard-working, slow and steady, enjoy extravagance and beauty, Taurus likes routine, familiarity, and stability. We often associate Taurus with the kind of beauty that's found in the environment or the earth itself. Taurus is famously routine-obsessed and tends to gravitate toward what they know feels good and comfy. Forcing yourself to go on an adventure or mix up your routine can be really beneficial. Lucky Gem:Emerald, Amber",
-         jams:["emerald.png","img/amber.png"],
+         jams:["img/emerald.png","img/amber.png"],
          compatibility:["45%","76%","62%","99%","72%","68%","30%","97%","75%","98%","77%","100%"]
      },
      {
@@ -65,7 +65,7 @@ const astroDescription=[
      {
          name:"Libra",
          src:"img/libra.png",
-         description:"Libra, Element:Air. They are balanced, compassionate, diplomatic, detail-oriented, harmonious, moral... Libras are interested in finding balance everywhere: in spheres of social justice, friendships, partnerships, etc. As such, they're often stereotyped as being indecisive—but they're just weighing all the options. Additionally, Libras can be so focused on helping others keep the peace that they don't always stand up for themselves. It's important for them to vocalize when their feelings are hurt instead of sweeping everything under the rug. Lucky Gem: Opal, Tourmaline.",
+         description:"Libra, Element:Air. They are balanced, compassionate, diplomatic... Libras are interested in finding balance everywhere: in spheres of social justice, friendships. As such, they're often stereotyped as being indecisive—but they're just weighing all the options. Additionally, Libras can be so focused on helping others keep the peace that they don't always stand up for themselves. It's important for them to vocalize when their feelings are hurt instead of sweeping everything under the rug. Lucky Gem: Opal,Tourmaline.",
          jams:["img/opalTourmaline.png"],
          compatibility:["100%","40%","85%","47%","98%","52%","70%","50%","96%","45%","70%","55%"]
      
@@ -116,14 +116,36 @@ function showCardSign(sign){
             } 
                console.log(counter); 
                  if(counter==2){
-                 imgJam.classList.add("disappear");
-                 signText.textContent=usersign+" & "+currentNameSign['name'];
+                 stoneImg=document.getElementById("stoneImg");
+                 stoneImg.style.display="none";
+                 //imgJam.classList.add("disappear");
+                 signText.textContent=usersign+" - "+currentNameSign['name'];
                  document.getElementById("heart").classList.remove("disappear");
-             } 
+                 // eraseTwoJams(astroSign);
+                 // eraseTwoJams(usersign);
+             }
 		}
 	}
     counter++;
 }
+// function eraseTwoJams(sign){
+//     for(let d of astroDescription){
+//         if(astroDescription['name']===sign){
+//            for(let j of astroDescription['jams']){
+//             astroDescription['jams'].shift();
+//            } 
+//         }
+//     }
+//     // astroDescription.forEach(index=>(astroDescription['name']==sign)?{
+//     // astroDescription['jams'].forEach(index=>astroDescription['jams'][index].shift())}
+// }
+function twoCard(){
+
+}
+function twoJams(){
+
+}
+
 showCardSign(usersign);
 let astroSign;
 let btnOther=document.getElementById("otherSign");
