@@ -4,14 +4,14 @@ const astroDescription=[
      {
      	 name:"Aquarius",
          src:"img/aquariuss.png",
-         description:"Aquarius, Element:Water Aquarians are usually full of ideas, ready to get the big picture on a problem and figure out how we should all move forward collectively into the unknown. Aquarius says onward—into the future! This sign is known to have an affinity for the unknown—and what may seem experimental or avant-garde to the rest of us. Aquarians are always looking forward into the future with a cool, airy perspective.Aquarians are the inventors, scientists, experimental artists, and artisans of the zodiac. Lucky Jam: Amethyst",
+         description:"Aquarius, Element:Water Aquarians are usually full of ideas, ready to get the big picture on a problem and figure out how we should all move forward collectively into the unknown. This sign is known to have an affinity for the unknown—and what may seem experimental or avant-garde to the rest of us. Aquarians are always looking forward into the future with a cool, airy perspective.Aquarians are the inventors, scientists, experimental artists, and artisans of the zodiac. Lucky Jam: Amethyst",
          jams:["img/Amethyst.png"],
          compatibility:["90%","45%","85%","58%","98%","67%","92%","50%","98%","70%","82%","66%"]
      },
      {
          name:"Pisces",
          src:"img/pisces.png",
-         description:"Pisces, Element: Water. They are: EMpathetis, sensitive, adaptable, dreamy, generous, curious, creative, naive. Endlessly empathetic and understanding, the Pisces personality is sensitive—and maybe a little psychic. Above all, Pisces is always envisioning, searching, and wondering about what's beyond the material world.Pisces tend to be a little gullible and can be prone to people-pleasing. Generosity is amazing, but make sure you're taking care of yourself, too. It's OK—and sometimes necessary—to raise an eyebrow or just say-no. Lucky Jam: Aquamarine, Blood Stone",
+         description:"Pisces, Element: Water. They are: Empathetis, sensitive, adaptable, dreamy, generous, naive. Endlessly empathetic and understanding, the Pisces personality is sensitive. Above all, Pisces is always searching, and wondering about what's beyond the material world.Pisces tend to be a little gullible and can be prone to people-pleasing. Generosity is amazing, but make sure you're taking care of yourself, too. It's OK—and sometimes necessary—to raise an eyebrow or just say-no. Lucky Jam: Aquamarine, Blood Stone",
          jams:["img/bloodStone.png"],
          compatibility:["30%","97%","50%","88%","50%","92%","60%","89%","46%","94%","39%","90%"]
      },
@@ -49,7 +49,7 @@ const astroDescription=[
      {
      	 name:"Leo",
          src:"img/lion.jpg",
-         description:"Leo, Element: Fire. They are confident, courageous, creative, generous, ambitious, dominant. The sign of Leo wants to see and be seen, just like the sun that rules it, which is why Leo is associated with visibility, attention, courage, generosity, and creative impulses. Leos would do well to make sure they're resting, relaxing, and recharging as needed. They are perceived as self-centered, taking time to help others and remember that the world doesn't revolve around them is a good idea for this sign!Lucky Gem: Peridot, Spinel and Sardonyx",
+         description:"Leo, Element: Fire. They are confident, courageous, creative, generous, ambitious, dominant. The sign of Leo wants to see and be seen, just like the sun that rules it, which is why Leo is associated with visibility, attention, courage, generosity, and creative impulses. Leos would do well to make sure they're resting, relaxing... They are perceived as self-centered, taking time to help others and remember that the world doesn't revolve around them is a good idea for this sign!Lucky Gem: Peridot, Spinel and Sardonyx",
          jams:["img/peridotSpinel.png"],
          compatibility:["89%","56%","95%","50%","85%","48%","92%","60%","90%","52%","97%","50%"]
      
@@ -73,7 +73,7 @@ const astroDescription=[
        {
      	 name:"Scorpio",
          src:"img/scorpio.png",
-         description:"Scorpio, Element: Water. They are bold, creative, determined, mysterious, mystical, passionate. Scorpionic energy often appears calm and subdued but is intensely emotional underneath the surface. Scorpios tend to like stability, routines, and home life, they are famously discreet and even secretive, with an air of mystery around them. A major opportunity for growth involves letting things go. Scorpios tend to hold onto grudges, negative energy, or obsessive thought patterns about people or situations that have wronged them. Remember that grudges only hurt the grudge-keeper! Lucky Gem: Topaz, Citrine",
+         description:"Scorpio, Element: Water. They are creative, determined, mysterious. Scorpionic energy often appears calm and subdued but is intensely emotional. Scorpios tend to like stability, routines, and home life, they are famously discreet and even secretive, with an air of mystery around them. A major opportunity for growth involves letting things go. Scorpios tend to hold onto grudges, negative energy, or obsessive thought patterns about people or situations that have wronged them. Lucky Gem: Topaz, Citrine",
          jams:["img/topazCitrine.png"],
          compatibility:["45%","90%","60%","85%","48%","100%","55%","88%","50%","95%","70%","85%"]
      
@@ -81,7 +81,7 @@ const astroDescription=[
      {
          name:"Sagittarrius",
          src:"img/contacteur.jpg",
-         description:"Sagittarrius, Element: Fire. They are: adventurous, adaptable, bold, curious, visionary. The question that's often going on in a Sagittarius' head: How can I balance my animal instincts with the more visionary, rational, truth-seeking part of myself. They tend to be adaptable to change and like to mix up their daily routines often.  They're always looking for the next adventure, and that can mean abandoning whatever other plans they may have already made. They would also do well to think before they speak, as they have a reputation for being straightforward to a fault. Lucky Gem: Tanzanite, Turquoise and Zircon",
+         description:"Sagittarrius, Element: Fire. They are: adventurous, adaptable, curious, visionary. They tend to be adaptable to change and like to mix up their daily routines often.  They're always looking for the next adventure, and that can mean abandoning whatever other plans they may have already made. They would also do well to think before they speak, as they have a reputation for being straightforward to a fault. Lucky Gem: Tanzanite, Turquoise and Zircon",
          jams:["img/tanzinr.png"],
          compatibility:["85%","50%","90%","60%","87%","55%","98%","47%","80%","50%","100%","62%"]
      
@@ -89,7 +89,7 @@ const astroDescription=[
      {
          name:"Capricorn",
          src:"img/capricorn.png",
-         description:"Capricorn, Element: Earth. They are: ambitious, authentic, dedicated, serious, structured, traditional, wise. Capricorn are very interested in new beginnings and fresh starts. We often think of Capricorns as high achievers or business-oriented workhorses. It's the job of the Capricorn to strike a balance between these two realms of earthly achievements and spiritual truth. If they let their drive get the best of them, Capricorns can be workaholics. Capricorn's quest involves finding a sweet balance between the wise and serious elder in them and the playful child-at-heart. Lucky Gem: Garnet",
+         description:"Capricorn, Element: Earth. They are: ambitious, authentic, dedicated, serious, structured, traditional, wise. Capricorn are very interested in new beginnings. It's the job of the Capricorn to strike a balance between these two realms of earthly achievements and spiritual truth. If they let their drive get the best of them, Capricorns can be workaholics. Capricorn's quest involves finding a sweet balance between the wise and serious elder in them and the playful child-at-heart. Lucky Gem: Garnet",
          jams:["img/garnet.png"],
          compatibility:["50%","85%","45%","95%","55%","90%","60%","97%","58%","87%","62%","100%"]
      
@@ -105,7 +105,15 @@ function showCardSign(sign){
             imgSign.setAttribute("src",currentNameSign['src']);
             imgSign.classList.add("imgSize");
             document.getElementById("container").appendChild(imgSign);
-            document.querySelector(".text").textContent=currentNameSign['description'];
+
+            let cardText=document.createElement("p");
+            cardText.textContent=currentNameSign['description'];
+            //cardText.classList.add("overlay");
+            let text=document.getElementsByClassName("text")[0];
+            text.appendChild(cardText);
+            cardText.classList.add("overlay");
+
+            //document.querySelector(".text").textContent=currentNameSign['description'];
             let signText=document.getElementById("signCentered")
             signText.textContent=currentNameSign['name'];
             for(let j of currentNameSign['jams']){
@@ -128,17 +136,7 @@ function showCardSign(sign){
 	}
     counter++;
 }
-// function eraseTwoJams(sign){
-//     for(let d of astroDescription){
-//         if(astroDescription['name']===sign){
-//            for(let j of astroDescription['jams']){
-//             astroDescription['jams'].shift();
-//            } 
-//         }
-//     }
-//     // astroDescription.forEach(index=>(astroDescription['name']==sign)?{
-//     // astroDescription['jams'].forEach(index=>astroDescription['jams'][index].shift())}
-// }
+
 function twoCard(){
 
 }

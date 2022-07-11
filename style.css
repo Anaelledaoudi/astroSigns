@@ -14,12 +14,12 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	transition: 10s;
+	transition: 5s;
 	animation-name:  animate;
 	animation-direction:normal ;
 	animation-playstate: running;
 	animation-timing-function: ease-in-out;
-	animation-duration: 30s;
+	animation-duration: 20s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	height: 80vh;
