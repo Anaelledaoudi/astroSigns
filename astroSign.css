@@ -40,6 +40,7 @@ body{
 	opacity: 0.9;
 }
 .text {
+	display: flex;
 	color: white;
 	font-size: 1em;
 	position: absolute;
@@ -89,7 +90,7 @@ body{
 }
 i{
 	color: #984394;
-	font-size: 100px;
+	font-size: 7vw;
 	position: relative;
 }
 #percant{
@@ -124,6 +125,8 @@ i{
 	display: flex;
 	justify-content: center;
 	align-self: center;
+	position: absolute;
+	left: 46.5%;
 }
 .longer{
 	height: 16vh;
