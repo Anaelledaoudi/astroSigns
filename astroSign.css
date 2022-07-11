@@ -1,7 +1,6 @@
 body{
-	background: rgb(229,237,245);
-	background: linear-gradient(356deg, rgba(229,237,245,0.8456057007125891) 0%, rgba(195,212,241,1) 28%, rgba(204,227,246,1) 63%, rgba(170,187,223,1) 100%);
-	background-repeat: no-repeat;
+	background: rgb(58,68,78);
+	background: linear-gradient(356deg, rgba(58,68,78,0.8456057007125891) 0%, rgba(47,60,83,1) 28%, rgba(33,64,91,1) 63%, rgba(13,22,42,1) 100%);
 }
 .imgSize{
 	height: 65vh;
@@ -119,10 +118,12 @@ i{
 #contentCardJam{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 #heartContainer{
 	display: flex;
 	justify-content: center;
+	align-self: center;
 }
 .longer{
 	height: 16vh;
