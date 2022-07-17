@@ -99,7 +99,16 @@ const astroDescription=[
 let counter=1;
 function showCardSign(sign){
 	for(let i=0;i<astroDescription.length;i++){
+        // -----------
+        // try not to use var, use let or const instead
+        // -----------
+
 		var currentNameSign=astroDescription[i];
+
+        // -----------
+        // use 3 equals it's safer
+        // -----------
+        
 		if(currentNameSign['name']==sign){
 			var imgSign=document.createElement("img");
             imgSign.setAttribute("src",currentNameSign['src']);
@@ -116,6 +125,7 @@ function showCardSign(sign){
             //document.querySelector(".text").textContent=currentNameSign['description'];
             let signText=document.getElementById("signCentered")
             signText.textContent=currentNameSign['name'];
+            
             for(let j of currentNameSign['jams']){
             	var imgJam=document.createElement("img");
             	imgJam.setAttribute("src",j);
@@ -145,11 +155,17 @@ function twoJams(){
 }
 
 showCardSign(usersign);
+
 let astroSign;
 let btnOther=document.getElementById("otherSign");
 btnOther.addEventListener("click",getNextDayMonth);
 
 //There is an other way but its bring me errors!
+
+// -----------
+// check out modules in Javascript to solve the issue
+// -----------
+
 function getNextDayMonth(){
 let date=document.getElementById("cal").value;
 let dateInput  = new Date(date);
